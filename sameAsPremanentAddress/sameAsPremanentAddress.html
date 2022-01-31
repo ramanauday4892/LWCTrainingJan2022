@@ -3,16 +3,16 @@
         <div class="slds-grid slds-gutters">
             <div class="slds-col slds-large-size_1-of-12"></div> 
             <div class="slds-col slds-large-size_1-of-3">
-                <lightning-card variant="Narrow" title="Permanant Address" style="color:blue"   >
+                <lightning-card variant="Narrow" title="Permanant Address" style="color:blue"  >
                     <div>
                         <h1 style="color:Black;">Enter Permenant address as govt proof </h1>
                     </div>
                     <lightning-input required type="text" variant="standard" label="Address Line 1" value={currentAddress1}  onchange={currentAddress1Change}></lightning-input>
                     <lightning-input required type="text" variant="standard" label="Address Line 2" value={currentAddress2}
                         onchange={currentAddress2Change}></lightning-input>
-                    <lightning-input required type="text" variant="standard" label="Landmark" value={landmark}
+                    <lightning-input required type="text" variant="standard" label="Landmark" value={currentLandmark}
                         onchange={currentLandmarkChange}></lightning-input>
-                    <lightning-input required type="number" variant="standard" label="Zip Code" value={zipCode}
+                    <lightning-input required type="number" variant="standard" label="Zip Code" value={currentZipCode}
                         onchange={currentZipCodeChange}></lightning-input>
                 </lightning-card>
             </div>
